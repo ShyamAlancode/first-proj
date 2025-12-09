@@ -1,0 +1,162 @@
+
+<html>
+  <head>
+    <title>
+      college feedback form
+    </title>
+  </head>
+</html>
+  
+
+<body>
+  <center><h1>College Feedback</h1></center>
+    <style>
+    fieldset{
+      width: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+    
+</style>
+  <fieldset id="calcFieldset">
+  <table>
+        <center>
+     
+        <lable style="font-family: Arial;font-size: larger;">Student Name:</lable>
+
+<input type="text" placeholder="Enter your Name" title="!Please Fill out This">
+<br>
+<br>
+
+<lable style="font-family:Arial;font-size: larger;">Register Number:</lable>
+<input   placeholder="Enter your Register Number" type="number" title="!Please Fill out This">
+<br>
+<br>
+   <h1 style="background-color: rgb(1, 221, 203);">DETAILS</h1>
+<table>
+<tr>
+<td style="font-family: Arial;font-size:x-large;">Department:</td> 
+
+<td>
+
+
+                    
+  <select>                  <option>Select</option>
+                            <option>CSE(AIML)</option>
+                            <option>CSE</option>
+                            <option>CCE</option>
+                            <option>ECE</option>
+                            <option>MECH</option>
+                            <option>EEE</option>
+                            <option>AIDS</option>
+                            
+</td>
+<tr>
+</table>
+
+<br>
+
+
+<table>
+<tr>
+<td style="font-family: Arial;font-size: x-large;">Subject:</td> 
+
+<td>
+
+
+                    
+  <select><option>Select</option>
+                            <option>calculus for engineer</option>
+                            <option>Application disign and Development</option>
+                            <option>Electronic microprocessor</option>
+                            <option>Technical English</option>
+                            <option>Problem Solving using C</option>
+                            
+                            
+</td>
+</tr>
+</table>
+<br>
+
+
+
+<table>
+<tr>
+<td style="font-family: Arial;font-size: x-large;">Faculty Name:</td> 
+
+<td>
+
+
+                    
+  <select>                   <option>Select</option>
+                            <option>Tamilarasi mathivanan</option>
+                            <option>kalaivani thangavel</option>
+                            <option>Banupriya</option>
+                            <option>Kavitha</option>
+                            <option>Praveena</option>
+  </select>
+  
+  
+</td>
+    </tr>
+</table>
+<br>
+
+<table>
+<tr>
+<td style="font-family: Arial;font-size: x-large;">Rating:</td> 
+
+<td>
+
+
+                    
+  <select id="rating">
+      <option value="">Select</option>
+      <option>Excellent</option>
+      <option >Good</option>
+      <option>Average</option>
+      <option>Below Average</option>
+      <option>Satisfied</option>
+    </select>
+</td>
+</tr>
+</table>
+    <br>
+
+
+<textarea placeholder="Comment..." maxlength="250" rows="4"></textarea>
+<center>
+  <br>
+  <br>
+  <br>
+  <br>
+<button style="background-color: rgb(255, 77, 0);border-color: black;box-shadow:red;border-radius: 5%;" onclick="abc()">SUBMIT FEEDBACK</button>
+
+
+                    
+  
+    
+<script>
+
+
+const natureImage = "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1600&q=80";
+
+// Set as background for the body
+document.body.style.backgroundImage = `url('${natureImage}')`;
+
+// Optional: make it cover the entire page
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundPosition = "center";
+</script>
+
+<script>
+
+function abc()
+{
+      alert(" Feedback submitted successfully!");
+}   
+  
+</script>
